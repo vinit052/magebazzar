@@ -1,5 +1,5 @@
 {
-    "name": "magebazaar/developer",
+    "name": "magebazaar/productattr",
     "description": "",
     "type": "magento2-module",
     "license": "proprietary",
@@ -11,6 +11,24 @@
     ],
     "minimum-stability": "dev",
     "require": {},
+    "repositories": [
+        {
+          "type": "composer",
+          "url": "http://packages.magento.com/"
+        },
+        {
+          "type": "vcs",
+          "url": "https://github.com/vinit052/magebazzar"
+        }
+    ],
+    "extra": {
+        "map": [
+            [
+                "*",
+                "AlanKent/ShowApplicationState"
+            ]
+        ]
+    },
     "autoload": {
         "files": [
             "registration.php"
