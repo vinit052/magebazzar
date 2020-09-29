@@ -1,1 +1,1 @@
-# magebazzar
+# magebazzar/developer
